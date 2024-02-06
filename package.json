@@ -2,7 +2,9 @@
   "name": "@playwright-angular-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "e2e": "nx e2e playwright-angular-monorepo-e2e"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.1.0",
